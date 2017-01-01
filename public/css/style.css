@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+fieldset,img{border:0 none}
+/*dl,ul,ol,menu,li{list-style:none}*/
+blockquote, q{quotes:none}
+blockquote:before, blockquote:after,q:before, q:after{content:'';content:none}
+input,select,textarea,button{vertical-align:middle;font-size:100%}
+button{border:0 none;background-color:transparent;cursor:pointer}
+table{border-collapse:collapse;border-spacing:0}
+body{-webkit-text-size-adjust:none}
+input:checked[type='checkbox']{background-color:#666;-webkit-appearance:checkbox}
+input[type='text'],input[type='password'],input[type='submit'],input[type='search'],input[type='tel'],input[type='email'],html input[type='button'],input[type='reset']{-webkit-appearance:none;border-radius:0}
+input[type='search']::-webkit-search-cancel-button{-webkit-appearance:none}
+
+body{background:#f1f1f1}
+body,th,td,input,select,textarea,button{font-size:14px;line-height:1.5;font-family:'Malgun Gothic', '맑은 고딕', sans-serif;color:#333}
+
+/*a{color:#333;text-decoration:none}
+a:active, a:hover{text-decoration:none}*/
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
+
+/* global */
+#kakaoIndex{overflow:hidden;position:absolute;left:-9999px;width:0;height:1px;margin:0;padding:0} /* 스킵네비게이션 */
+.ir_pm{display:block;overflow:hidden;font-size:0px;line-height:0;text-indent:-9999px}
+.ir_wa{display:block;overflow:hidden;position:relative;z-index:-1;width:100%;height:100%}
+.screen_out{overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent:-9999px}
+.show{display:block}
+.hide{display:none}
+
+
+#kakaoHead{padding-bottom:2px;border-bottom:1px solid #fec70d;background-color:#fcc346;}
+.k_head{position:relative;z-index:10;width:100%;height:42px;border-top:1px solid #434753;border-bottom:1px solid #2e313b;background-color:#3d414d;}
+.k_head h1{float:left;height:30px;margin-left:6px;padding-top:12px;vertical-align:top;font-size:18px;line-height:1;background-position:0 0;color:#fff;}
+#kakaoContent h2{height:30px;margin-left:6px;margin-bottom:10px;padding-top:12px;vertical-align:top;font-size:16px;color:#666;}
+
+.cont_item{overflow:hidden;padding:10px 12px;margin:10px 7px;border:1px solid #c5c5c6;border-radius:13px;border-top-left-radius:0;border-bottom-right-radius:0;background-color:#fff}
+.calc_item{padding:0 20px}
+.dl_comm{line-height:1}
+.dl_comm:nth-child(n+2){margin-top:16px}
+.dl_comm .tit_lab{float:left;width:85px;padding-top:8px;font-size:15px;color:#222}
+.tf_comm {display:-webkit-box;overflow:hidden;width:100%;height:32px;padding:4px 24px 4px 10px;border:1px solid #d1d1d1;border-radius:2px;font-size:16px;line-height:1.1;text-align:right;vertical-align:top;color:#888;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none}
+.cont_inp{overflow:hidden;position:relative;font-size:15px;color:#222}
+.cont_inp .txt_unit{position:absolute;top:8px;right:9px}
+.cont_inp_month .tf_comm {padding-right: 40px;}
+
+.wrap_btn{margin:10px 20px 0;padding-bottom:20px}
+.wrap_btn .btn_result{display:block;width:100%;padding:12px 0 14px;border:1px solid #dead0a;border-radius:2px;font-weight:bold;font-size:18px;line-height:1;background-color:#fcc346;background-image:-webkit-gradient(linear,left top,left bottom,from(#fec70d),to(#fcc346));background-image:-moz-linear-gradient(top,#fec70d,#fcc346);background-image:-o-linear-gradient(top,#fec70d,#fcc346);background-image:linear-gradient(to bottom,#fec70d,#fcc346);color:#454545;cursor:pointer}
+
+.wrap_result{display:none;text-align:center}
+.wrap_result .info_calc{display:inline-block;padding:8px 0 27px;vertical-align:top;overflow:hidden}
+.wrap_result .info_calc .tit_base{float:left;padding-top:1px;margin-right:19px;font-size:15px;color:#919191}
+.wrap_result .info_calc .txt_num{margin-right:0;font-size:16px}
+.wrap_result .info_calc .txt_emph{font-size:18px;vertical-align:-1px;color:#d90c12}
+.wrap_result table{width:100%;font-size:16px}
+.wrap_result th, td{border-bottom:1px solid #ddd;padding:10px 5px}
+.wrap_result th{background-color:#f5f5f5}
+.wrap_result td{color:#767676}
+.wrap_result tbody tr:hover{background-color:#f5f5f5}
+.wrap_result .info{padding-top:10px;font-size:12px;color:#767676}
+.number_validation{ime-mode:disabled}
+
+#kakaoFoot {width:100%;margin:29px auto 0;padding-top:10px;border-top:1px solid #d9d9d9;bottom:0;font-family:sans-serif;background-color:#f1f1f1;text-align:center;clear:both}
