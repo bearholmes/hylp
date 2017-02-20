@@ -31,14 +31,14 @@
         <dl class="dl_comm">
           <dt class="tit_lab"><label for="calc_inp_01">전년 연봉</label></dt>
           <dd class="cont_inp">
-            <input type="tel" id="calc_inp_01" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="15">
+            <input type="text" id="calc_inp_01" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="15">
             <span class="txt_unit">&nbsp;원</span>
           </dd>
         </dl>
         <dl class="dl_comm">
           <dt class="tit_lab"><label for="calc_inp_02">올해 연봉</label></dt>
           <dd class="cont_inp">
-            <input type="tel" id="calc_inp_02" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="15">
+            <input type="text" id="calc_inp_02" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="15">
             <span class="txt_unit">&nbsp;원</span>
           </dd>
         </dl>
@@ -54,7 +54,7 @@
         <dl class="dl_comm">
           <dt class="tit_lab"><label for="calc_inp_03">기준 연봉</label></dt>
           <dd class="cont_inp">
-            <input type="tel" id="calc_inp_03" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="15">
+            <input type="text" id="calc_inp_03" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="15">
             <span class="txt_unit">&nbsp;원</span>
           </dd>
         </dl>
@@ -70,14 +70,14 @@
         <dl class="dl_comm">
           <dt class="tit_lab"><label for="calc_inp_04">시작 연봉</label></dt>
           <dd class="cont_inp">
-            <input type="tel" id="calc_inp_04" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="15">
+            <input type="text" id="calc_inp_04" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="15">
             <span class="txt_unit">&nbsp;원</span>
           </dd>
         </dl>
         <dl class="dl_comm">
           <dt class="tit_lab"><label for="calc_inp_05">근무 개월</label></dt>
           <dd class="cont_inp cont_inp_month">
-            <input type="tel" id="calc_inp_05" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="2">
+            <input type="text" id="calc_inp_05" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="2">
             <span class="txt_unit">&nbsp;개월</span>
           </dd>
         </dl>
@@ -88,19 +88,49 @@
     </article>
     <hr class="hide">
     <article class="cont_item">
-      <h2>4. 향후 예상</h2>
+      <h2>4. 보정 인상율 확인 (0~1년차)</h2>
+      <div class="calc_item">
+        <dl class="dl_comm">
+          <dt class="tit_lab"><label for="calc_inp_08">기준 연봉</label></dt>
+          <dd class="cont_inp">
+            <input type="text" id="calc_inp_08" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="15">
+            <span class="txt_unit">&nbsp;원</span>
+          </dd>
+        </dl>
+        <dl class="dl_comm">
+          <dt class="tit_lab"><label for="calc_inp_09">예상 연봉</label></dt>
+          <dd class="cont_inp">
+            <input type="text" id="calc_inp_09" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="15">
+            <span class="txt_unit">&nbsp;원</span>
+          </dd>
+        </dl>
+        <dl class="dl_comm">
+          <dt class="tit_lab"><label for="calc_inp_10">근무 개월</label></dt>
+          <dd class="cont_inp cont_inp_month">
+            <input type="text" id="calc_inp_10" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="2">
+            <span class="txt_unit">&nbsp;개월</span>
+          </dd>
+        </dl>
+      </div>
+      <div class="wrap_btn"> <button id="btn_05" class="btn_result">계산하기</button></div>
+      <div id="msg_05" class="wrap_result">
+      </div>
+    </article>
+    <hr class="hide">
+    <article class="cont_item">
+      <h2>5. 향후 예상</h2>
       <div class="calc_item">
         <dl class="dl_comm">
           <dt class="tit_lab"><label for="calc_inp_06">기준 연봉</label></dt>
           <dd class="cont_inp">
-            <input type="tel" id="calc_inp_06" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="15">
+            <input type="text" id="calc_inp_06" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="15">
             <span class="txt_unit">&nbsp;원</span>
           </dd>
         </dl>
         <dl class="dl_comm">
           <dt class="tit_lab"><label for="calc_inp_07">평균 인상율</label></dt>
           <dd class="cont_inp">
-            <input type="tel" id="calc_inp_07" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="15">
+            <input type="text" id="calc_inp_07" class="tf_on tf_comm number_validation" placeholder="" value="" autocomplete="off" maxlength="15">
             <span class="txt_unit">&nbsp;%</span>
           </dd>
         </dl>
